@@ -1,8 +1,8 @@
-# Streaming 3D Gaussians
+# Quality-Preserving Online Streaming Dynamic Gaussian Splatting
 
-Standalone per-frame streaming training for 3D Gaussians with velocity integration.
+Official implementation of **Quality-Preserving Online Streaming Dynamic Gaussian Splatting**.
 
-The main entry point is `train_stream_integrate.py`. This repository is for research use. See `LICENSE.md`, `LICENSE`, and `NOTICE.md`.
+The main script is `train_stream_integrate.py`. This repository is for research use. See `LICENSE.md`, `LICENSE`, and `NOTICE.md`.
 
 ## Environment
 

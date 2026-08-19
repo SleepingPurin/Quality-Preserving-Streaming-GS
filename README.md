@@ -18,7 +18,12 @@ pip install submodules/simple-knn
 
 ## Data
 
-Use the datasets and directory layout described in [TRACE](https://github.com/vLAR-group/TRACE). A scene folder should contain `transforms_train.json` (Blender / D-NeRF convention).
+We evaluate on two TRACE datasets: **Dynamic Object Dataset** and **Dynamic Indoor Scene Dataset**.
+
+- [Dynamic Object Dataset](https://huggingface.co/datasets/scintigimcki/DynamicObjects)
+- [Dynamic Indoor Scene Dataset](https://huggingface.co/datasets/scintigimcki/DynamicIndoorScenes)
+
+Follow the dataset download and directory layout in [TRACE](https://github.com/vLAR-group/TRACE). A scene folder should contain `transforms_train.json` (Blender / D-NeRF convention).
 
 ## Training
 
@@ -96,6 +101,10 @@ Outputs are written to `--model_path`. Streaming artifacts are under `model_path
 
 Values of `-1` on the frame-wise densify / iteration flags mean “inherit the corresponding base setting”, not “disable”. To freeze Gaussian appearance while training velocity, add `--feature_lr 0 --opacity_lr 0 --scaling_lr 0`.
 
+## Acknowledgement
+
+This repository is built upon [TRACE](https://github.com/vLAR-group/TRACE) and [3DGStream](https://github.com/SJoJoK/3DGStream). We thank the authors for releasing their code.
+
 ## Citation
 
 Please cite 3DGStream, TRACE, and 3D Gaussian Splatting if you use this code.
@@ -115,5 +124,16 @@ Please cite 3DGStream, TRACE, and 3D Gaussian Splatting if you use this code.
   author={Jinxi Li and Ziyang Song and Bo Yang},
   year={2025},
   journal={ICCV}
+}
+
+@Article{kerbl3Dgaussians,
+      author       = {Kerbl, Bernhard and Kopanas, Georgios and Leimk{\"u}hler, Thomas and Drettakis, George},
+      title        = {3D Gaussian Splatting for Real-Time Radiance Field Rendering},
+      journal      = {ACM Transactions on Graphics},
+      number       = {4},
+      volume       = {42},
+      month        = {July},
+      year         = {2023},
+      url          = {https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/}
 }
 ```

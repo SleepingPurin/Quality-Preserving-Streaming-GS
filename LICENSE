@@ -1,0 +1,14 @@
+Copyright (c) 2026 The Authors
+
+This repository contains original code as well as derivative works of
+3D Gaussian Splatting, 3DGStream, TRACE, and related projects.
+
+- Files derived from 3D Gaussian Splatting are licensed under the
+  Gaussian-Splatting License in LICENSE.md (research / non-commercial).
+- Physics / FreeGave-related code derived from TRACE is subject to
+  CC BY-NC-SA 4.0: https://github.com/vLAR-group/TRACE
+- The remaining original code in this repository may be used for
+  research and evaluation only, and remains subject to the upstream
+  non-commercial limitations above.
+
+See NOTICE.md for attributions.

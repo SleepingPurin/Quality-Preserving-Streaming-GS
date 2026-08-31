@@ -131,6 +131,7 @@ This repository is built upon [TRACE](https://github.com/vLAR-group/TRACE) and [
       year         = {2023},
       url          = {https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/}
 }
+```
 
 ## Citation
 

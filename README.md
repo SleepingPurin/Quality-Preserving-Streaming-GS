@@ -104,11 +104,6 @@ Values of `-1` on the frame-wise densify / iteration flags mean “inherit the c
 ## Acknowledgement
 
 This repository is built upon [TRACE](https://github.com/vLAR-group/TRACE) and [3DGStream](https://github.com/SJoJoK/3DGStream). We thank the authors for releasing their code.
-
-## Citation
-
-Please cite 3DGStream, TRACE, and 3D Gaussian Splatting if you use this code.
-
 ```bibtex
 @InProceedings{sun20243dgstream,
     author    = {Sun, Jiakai and Jiao, Han and Li, Guangyuan and Zhang, Zhanjie and Zhao, Lei and Xing, Wei},
@@ -135,5 +130,15 @@ Please cite 3DGStream, TRACE, and 3D Gaussian Splatting if you use this code.
       month        = {July},
       year         = {2023},
       url          = {https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/}
+}
+
+## Citation
+
+```bibtex
+@inproceedings{li2026quality,
+  title     = {Quality-Preserving Online Streaming Dynamic Gaussian Splatting},
+  author    = {Li, Jinle and Ye, Wei and Fan, Rui and Yun, Peng},
+  booktitle = {British Machine Vision Conference (BMVC)},
+  year      = {2026}
 }
 ```
